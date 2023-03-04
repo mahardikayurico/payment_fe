@@ -32,8 +32,7 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Related Project 
-Back End Payment_be 
-https://github.com/mahardikayurico/payment_be
+[Back End Payment_be](https://github.com/mahardikayurico/payment_be)
 
 ## Deploy on Vercel
 
