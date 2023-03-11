@@ -8,9 +8,11 @@ export default function login() {
     <div>
       <LayoutTitle title="Auth | Login">
         <main className="container mx-auto flex">
-          <section className={`${styles["aside-auth"]} flex-1  `}>
-            <Layout />
-          </section>
+          <div className="hidden sm:block  flex-1">
+            <section className={`${styles["aside-auth"]}`}>
+              <Layout />
+            </section>
+          </div>
           <section className="flex-1 mt-8 ml-7">
             <div className="mt-10">
               <p className="text-4xl">

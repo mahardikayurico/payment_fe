@@ -11,9 +11,11 @@ export default function register() {
     <div>
       <LayoutTitle title="Auth | Register">
         <main className="container mx-auto flex">
-          <section className={`${styles["aside-auth"]} flex-1  `}>
-            <Layout />
-          </section>
+          <div className="hidden sm:block  flex-1">
+            <section className={`${styles["aside-auth"]}`}>
+              <Layout />
+            </section>
+          </div>
           <section className="flex-1 mt-8 ml-7">
             <div className="mt-10">
               <p className="text-4xl text-[#3A3D42] font-w-[700]">
@@ -31,14 +33,14 @@ export default function register() {
               <div className="flex flex-col py-4 w-full mx-auto ">
                 <input
                   type="text"
-                  placeholder="Enter your firstname"
+                  placeholder="Enter your fullname"
                   className="input input-ghost w-full max-w-xl p-3"
                 />
               </div>
               <div className="flex flex-col py-4 w-full mx-auto ">
                 <input
                   type="text"
-                  placeholder="Enter your Lastname"
+                  placeholder="Enter your username"
                   className="input input-ghost w-full max-w-xl p-3"
                 />
               </div>

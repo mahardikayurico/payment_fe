@@ -40,7 +40,7 @@ const Home = () => {
           <div className="flex flex-row bg-[#6379F4] p-5 rounded-lg">
             <div className="flex-1 ">
               <h1 className="text-[#E0E0E0] text-xl">Balance</h1>
-              <h1 className="text-white text-4xl mt-2">Rp {wallet.balance}</h1>
+              <h1 className="text-white text-4xl mt-2">Rp 20.000</h1>
               <h1 className="text-[#E0E0E0] text-xl mt-2">+62 813-9387-7946</h1>
             </div>
             <div className="flex-1">
